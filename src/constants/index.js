@@ -223,7 +223,7 @@ const projects = [
   {
     name: "Skin Cancer detector App",
     description:
-      "skin cancer detector app application using flutter for front end and cnn  model to process the image picked from the phone camera ",
+      "skin cancer detector mobile application using flutter for front end and cnn  model to process the image picked from the phone camera ",
     tags: [
       {
         name: "Flutter",
