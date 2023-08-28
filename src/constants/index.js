@@ -199,6 +199,28 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Adwa Film Production",
+    description:
+      "React website for Production company  in ethiopia  integrated with framer motion for smoother user experience  ",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "FramerMotion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/Asrat001/adwa-films",
+    link:"https://adwa-films.netlify.app/"
+  },
+  {
     name: "Company Landing Page",
     description:
       "React website for tech company  in ethiopia  integrated with framer motion for smoother user experience  ",
