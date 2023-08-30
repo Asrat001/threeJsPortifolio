@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  adwa,
 
 } from "../assets";
 
@@ -216,7 +217,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: adwa,
     source_code_link: "https://github.com/Asrat001/adwa-films",
     link:"https://adwa-films.netlify.app/"
   },
