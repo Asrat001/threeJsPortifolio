@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import me from '../assets/assrat.jpg'
 
 const Hero = () => {
   return (
@@ -9,12 +9,10 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
-        <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
-        </div>
+        
 
         <div>
+        <img src={me} alt="me" className="w-[250px] h-[250] sm:w-[350px] sm:h-[350px] border-[4px]   border-[#915EFF] rounded-full "/>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm  <span className='text-[#915EFF]'>Asrat</span>
           </h1>
@@ -22,12 +20,14 @@ const Hero = () => {
             I'am  a Full stack Developer    <br className='sm:block hidden' />
             
           </p>
+      
+        
         </div>
       </div>
 
-     <div className="w-32 h-32 border-[2px]   border-[#915EFF] rounded-full relative top-[50%] left-[50%]">
-     
-     </div>
+   
+   
+    
       <div className="absolute xs:bottom-10 bottom-32  w-full  flex justify-center items-center">
       <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
