@@ -74,6 +74,8 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <a className="p-2 bg-white text-black text-[12px] rounded-full border-[2px] border-black">Make an appointment</a>
+
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>

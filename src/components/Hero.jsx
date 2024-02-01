@@ -5,21 +5,23 @@ import { styles } from "../styles";
 import { FaPhoneAlt } from "react-icons/fa";
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full h-screen mx-auto p-2 md:p-14`}>
       <div
-        className={`flex justify-center items-center h-full  max-w-2xl mx-auto ${styles.paddingX} `}
+        className={`flex justify-start mt-20 sm:mt-14 items-center h-full   max-w-2xl  ${styles.paddingX} `}
       >
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm  <span className='text-[#915EFF]'>Asrat</span>
+          <h1 className={`${styles.heroHeadText} text-white text-center md:text-start`}>
+          Grow Your Business Online with 
+     <span className='text-[#915EFF]'> Expert Web Development</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-[#915EFF]`}>
-            Full stack Software Developer    <br className='sm:block hidden' />
+          <p className={`${styles.heroSubText} mt-2 text-[#915EFF] text-center md:text-justify`}>
+          from Planning and Designing  <br className='sm:block hidden' />
           </p>
       
-          <p className=" text-gray-400">
-          I'm an advocate for building responsive, accessible and inclusive digital products and experiences for the web and mobile based in Addis Ababa, Ethiopia
+          <p className=" text-gray-400 text-center sm:text-justify">
+          We’ll collaborate to identify your target audience, website features, and functionality to meet your needs.
+          Once the design is approved, I will begin building your website using the appropriate programming languages and platforms
           </p>
           <p>Let's Bring Your Idea to life , Contact Me !</p>
           <div className="flex flex-col md:flex-row items-center justify-start mt-4 gap-6">
@@ -37,26 +39,16 @@ const Hero = () => {
             </a>
           </div>
         </div>
+
+        <div>
+         
+       
+        </div>
       </div>
 
    
    
     
-      <div className="absolute xs:bottom-10 bottom-32  w-full  flex justify-center items-center">
-      <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                repeatType: "loop",
-              }}
-              className='w-3 h-3 rounded-full bg-secondary mb-1'
-            />
-          </div>
-          </div>
 
     </section>
   );

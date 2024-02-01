@@ -13,6 +13,7 @@ const ServiceCard = ({ index, title, icon }) => (
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
+   
       <div
         options={{
           max: 45,
@@ -38,9 +39,9 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+      <motion.div variants={textVariant()} className="mt-20 md:mt-1">
+        <p className={styles.sectionSubText}>Exploring My Experiences and Impact</p>
+        <h2 className={styles.sectionHeadText}>Get to Know Me</h2>
       </motion.div>
 
       <motion.p
@@ -53,11 +54,15 @@ const About = () => {
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
-
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className="mt-10">
+      
+     <p className={`${styles.sectionSubText} text-white font-extrabold`}>Service I provide</p>
+      <div className=' mt-4 flex flex-wrap gap-10'>
+   
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
+      </div>
       </div>
     </>
   );

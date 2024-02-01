@@ -37,7 +37,7 @@ export const navLinks = [
   },
   {
     id: "projrct",
-    title: "projects",
+    title: "portfolio",
   },
   {
     id: "contact",
@@ -47,15 +47,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "Application Developer",
+    title: "Application  Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Service  Development",
     icon: backend,
   },
   {
@@ -203,7 +203,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Asrat proved me wrong.",
     name: "Sara Lee",
     designation: "Client",
     company: "Upwork",
@@ -211,15 +211,15 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Asrat does.",
     name: "Aron Hunde",
-    designation: "Collige",
-    company: " Bhair dar Universsity",
+    designation: "CTO",
+    company: "I Tech Solution",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Asrat optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
