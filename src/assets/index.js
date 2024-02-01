@@ -24,14 +24,19 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.jpg";
 import shopify from "./company/shopify.jpg";
 import starbucks from "./company/starbucks.png";
+import bl from "./company/3bl.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.jpg";
 import tripguide from "./tripguide.png";
+import up from "./up2.jpg";
+import cast from "./cast.png";
 import adwa from './adwa.png';
 
 export {
+  cast,
+  up,
   logo,
   backend,
   creator,
@@ -60,5 +65,6 @@ export {
   carrent,
   jobit,
   tripguide,
-  adwa
+  adwa,
+  bl
 };

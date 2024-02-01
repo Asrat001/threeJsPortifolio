@@ -49,7 +49,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Asrat &nbsp;
-            <span className='sm:block hidden'> |Web Developer</span>
+            <span className='sm:block hidden'> | Full-Stack Developer</span>
           </p>
         </Link>
         <div className=" sm:fixed  absolute top-32 sm:right-6  right-3 flex flex-col  justify-between space-y-6 items-center">

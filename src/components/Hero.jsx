@@ -1,27 +1,41 @@
 import { motion } from "framer-motion";
-
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 import { styles } from "../styles";
-import me from '../assets/assrat.jpg'
-
+import { FaPhoneAlt } from "react-icons/fa";
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`flex justify-center items-center h-full  max-w-2xl mx-auto ${styles.paddingX} `}
       >
-        
 
         <div>
-        <img src={me} alt="me" className="w-[250px] h-[250] sm:w-[350px] sm:h-[350px] border-[4px]   border-[#915EFF] rounded-full "/>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm  <span className='text-[#915EFF]'>Asrat</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'am  a Full stack Developer    <br className='sm:block hidden' />
-            
+          <p className={`${styles.heroSubText} mt-2 text-[#915EFF]`}>
+            Full stack Software Developer    <br className='sm:block hidden' />
           </p>
       
-        
+          <p className=" text-gray-400">
+          I'm an advocate for building responsive, accessible and inclusive digital products and experiences for the web and mobile based in Addis Ababa, Ethiopia
+          </p>
+          <p>Let's Bring Your Idea to life , Contact Me !</p>
+          <div className="flex flex-col md:flex-row items-center justify-start mt-4 gap-6">
+            <a href="tel:+251916562124" target="_blank" className=" w-[200px] p-3 rounded-lg border-[2px] border-[#915EFF] flex justify-center items-center gap-2">
+            <FaPhoneAlt/>
+            +251916562124
+            </a>
+            <a href="https://www.linkedin.com/in/asrat-adane-50a521240" target="_blank" className=" w-[200px] p-3 rounded-lg border-[2px] border-[#915EFF] flex justify-center items-center gap-2">
+            <BsLinkedin />
+             Linkedin
+            </a>
+            <a href="https://github.com/Asrat001" target="_blank" className=" w-[200px] p-3 rounded-lg border-[2px] border-[#915EFF] flex justify-center items-center gap-2">
+            <FaGithub />
+             Github
+            </a>
+          </div>
         </div>
       </div>
 
