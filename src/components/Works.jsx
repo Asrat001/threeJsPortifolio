@@ -10,7 +10,7 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { Link } from "react-router-dom";
 
-const ProjectCard = ({
+export  const ProjectCard = ({
   index,
   name,
   description,
@@ -20,7 +20,7 @@ const ProjectCard = ({
   link
 }) => {
   return (
-    <div  className="green-pink-gradient shadow-card p-[2px] h-auto rounded-[20px]" >
+    <div  className="green-pink-gradient shadow-card p-[2px] h-fit w-fit rounded-[20px]" >
       <Tilt
         options={{
           max: 45,

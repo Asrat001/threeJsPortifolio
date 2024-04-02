@@ -26,7 +26,8 @@ import {
   adwa,
   bl,
   up,
-  cast
+  cast,
+  recepe
 
 } from "../assets";
 
@@ -229,7 +230,29 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Skin Cancer detector App",
+    name: "Recipe Share",
+    description:
+      "ላጤ Recipes is an open-source recipe sharing website designed for the modern world. Explore, create, and share creative recipes with our vibrant community",
+    tags: [
+      {
+        name: "Next Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:recepe,
+    source_code_link: "https://github.com/Asrat001/PromtShare-",
+    link:"https://share-recipes.vercel.app/"
+  },
+  {
+    name: "AI  -Skin Cancer detector App",
     description:
       "skin cancer detector mobile application using flutter for front end and cnn  model to process the image picked from the phone camera ",
     tags: [

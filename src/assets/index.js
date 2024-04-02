@@ -34,6 +34,8 @@ import up from "./up2.jpg";
 import cast from "./cast.png";
 import adwa from './adwa.png';
 
+import recepe from './recepe.png';
+
 export {
   cast,
   up,
@@ -66,5 +68,6 @@ export {
   jobit,
   tripguide,
   adwa,
-  bl
+  bl,
+  recepe
 };
