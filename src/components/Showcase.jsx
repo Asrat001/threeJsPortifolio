@@ -10,6 +10,7 @@ import {
  import { styles } from "@/styles";
 import { SectionWrapper } from "@/hoc";
 import { HiLink } from "react-icons/hi";
+import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 
 
 
@@ -19,7 +20,17 @@ const Showcase = () => {
    <div className={` sm:mt-20  p-5 md:p-0`}>
       <p className={ `${styles.sectionSubText} text-center `}>What I have built so far.</p>
         <h2 className={ `${styles.sectionHeadText} text-center`}>Check out my Works</h2>
-    <Carousel   className=" mt-16   flex items-center justify-center">
+      
+  <div className=" flex items-center gap-4 my-2">
+      <p>
+      <BsArrowLeft size={25}/>
+      </p>
+     <p>
+      <BsArrowRight size={25}/>
+     </p>
+  </div>
+
+  <Carousel   className=" mt-2   flex items-center justify-center">
   <CarouselContent className=" ">
    {
     projects.map((project, index)=>(
