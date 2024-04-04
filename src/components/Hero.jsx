@@ -8,9 +8,9 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className={`relative  w-full h-screen mx-auto p-6 md:p-14`}>
+    <section className={`flex justify-center items-center  w-full h-fit   p-6 md:p-14`}>
       <div
-        className={`flex  mt-10 sm:mt-32 items-center h-full    max-w-2xl  ${styles.paddingX} `}
+        className={`flex  mt-10 sm:mt-40 items-center     max-w-6xl  `}
       >
 
         <div>
@@ -22,7 +22,7 @@ const Hero = () => {
           from Planning and Designing  <br className='sm:block hidden' />
           </p>
       
-          <p className=" text-gray-400 text-center sm:text-justify">
+          <p className=" text-gray-400 text-center sm:text-justify max-w-4xl">
           We’ll collaborate to identify your target audience, website features, and functionality to meet your needs.
           Once the design is approved, I will begin building your website using the appropriate programming languages and platforms
           </p>

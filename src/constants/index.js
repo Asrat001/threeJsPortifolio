@@ -27,7 +27,8 @@ import {
   bl,
   up,
   cast,
-  recepe
+  recepe,
+  temari
 
 } from "../assets";
 
@@ -250,6 +251,32 @@ const projects = [
     image:recepe,
     source_code_link: "https://github.com/Asrat001/PromtShare-",
     link:"https://share-recipes.vercel.app/"
+  },
+  {
+    name: "Tech-Temari",
+    description:
+      "At Tech-Temero, we're dedicated to empowering young minds beyond theory. Through our project-based learning approach, we don't just teach programming; we inspire kids to build. By immersing them in hands-on experiences.",
+    tags: [
+      {
+        name: "React Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "FramerMotions",
+        color: "reen-text-gradient",
+      },
+    ],
+    image:temari,
+    source_code_link: "https://github.com/Asrat001/CourseSpace",
+    link:"https://tech-temari.vercel.app/"
   },
   {
     name: "AI  -Skin Cancer detector App",

@@ -33,10 +33,12 @@ import tripguide from "./tripguide.png";
 import up from "./up2.jpg";
 import cast from "./cast.png";
 import adwa from './adwa.png';
+import temari from './temari.png';
 
 import recepe from './recepe.png';
 
 export {
+  temari,
   cast,
   up,
   logo,
